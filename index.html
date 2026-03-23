@@ -26,8 +26,8 @@
                 <h1>Formulário</h1>
                 <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
 
-                <form>
-                    <fieldset>
+                <form method="post" enctype="multipart/form-data">
+                    <fieldset class="child-info">
                         <legend>Informação da criança</legend>
 
                         <div class="input-wrapper">
@@ -52,7 +52,7 @@
                         <div class="textearea-wrapper">
                             <label for="medicinfo">Informações medicas:</label>
                          
-                            <textarea name="medicinfo" id="medicinfo" cols="20" rows="2"></textarea>
+                            <textarea name="medicinfo" id="medicinfo" cols="20" rows="2" placeholder="ele tem..."></textarea>
                         </div>
 
 
